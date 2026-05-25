@@ -1,0 +1,5 @@
+import requests
+url="https://jsonplaceholder.typicode.com/posts/1"
+cavab=requests.get(url)
+print(cavab.status_code)
+
